@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-8u!#e2=k3$c4^)buar9hwier5)j=@iga&7zzd6zild%fr=j6il
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["*"]
+ALLOWED_HOSTS = ["*",".vercel.app"]
 
 REST_FRAMEWORK = {
     'DEFAULT_PAGINATION_CLASS':'rest_framework.pagination.PageNumberPagination',
